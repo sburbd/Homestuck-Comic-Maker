@@ -1,0 +1,86 @@
+/* Canvas nav */
+.canvas-nav{
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(8, auto) ;
+  max-width: 650px;
+}
+
+.canvas-btn{
+  padding: 4px 0px;
+}
+
+.canvas-icon{
+  margin-right: 5px;
+  margin-bottom: 2px;
+  height: 16px;
+}
+
+/* Canvas btns */
+#zoomControl{
+  width: 90%;
+  cursor: pointer;
+}
+
+/* Canvas (ratio is 13/9)*/
+#canvas-bg{
+  width: 650px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+canvas{
+  width: 650px;
+  height: 450px;
+  border: 1px rgba(0, 0, 0, 0.125) solid;
+  position: absolute;
+  padding: 1px;
+}
+
+/* palette */
+
+.sp-replacer{
+  top: -10px;
+}
+
+
+.canv-pan{
+  margin-top: 15px;
+  display: grid;
+  grid-template-rows: 40px 40px;
+  grid-template-columns: 40px 40px 40px;
+}
+
+.arrow{
+  font-size: 20px;
+  background-color: lightgray;
+  border-radius: 30%;
+  border-right: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
+  width: 95%;
+  height: 90%;
+  box-shadow: 0px 0px 3px 1px gray;
+  cursor: pointer;
+}
+
+/* centering arrows inside buttons */
+.arrow > p{
+  margin-top: -3px;
+  cursor: pointer;
+}
+
+/* active arrows */
+.arrow-active{
+  border-top: 2px solid #898989;
+  border-left: 2px solid #898989;
+  background-color: silver;
+}
+
+.adjust-container{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto 120px;
+  padding: 10px;
+  padding-right: 20px;
+}

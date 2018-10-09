@@ -1,0 +1,28 @@
+/* Overall page */
+.typostuck{
+  font-family: 'Typostuck';
+}
+
+html{
+  width: auto;
+  min-width: 700px;
+  overflow-x: scroll;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F8F8F8;
+}
+
+p{
+  margin-bottom: 5px;
+}
+
+/* Grid system */
+.grid-container{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 650px auto;
+  padding: 0px 20px;
+}

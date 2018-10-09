@@ -1,0 +1,46 @@
+@media only screen and (max-width: 970px) {
+  .grid-container{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 650px;
+    padding: auto;
+    justify-content: space-around;
+  }
+
+  .grid-item{
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .title-text{
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .title-text{
+    display: none;
+  }
+  .title-small{
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-collapse{
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar{
+    width: 700px;
+    position: fixed;
+  }
+  .grid-container{
+    padding-top: 60px;
+  }
+}

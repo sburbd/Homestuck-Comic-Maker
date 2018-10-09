@@ -1,0 +1,41 @@
+.title-text{
+  text-align: center;
+  color: #73E94E;
+  font-family: 'TYPOSTUCK';
+  font-size: 50px;
+  margin: 5px 0px 0px 10px;
+  text-shadow: 3px 3px 0px black;
+}
+
+.title-small{
+  display: none;
+  text-align: center;
+  color: #73E94E;
+  font-family: 'TYPOSTUCK';
+  font-size: 30px;
+  margin: 6px 0px 0px 10px;
+  text-shadow: 3px 3px 0px black;
+}
+
+.navbar{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  justify-content: space-between;
+  background-color: #535353;
+  box-shadow: 0px 0px 5px 4px #303030;
+  margin-bottom: 10px;
+  max-width: 100%;
+  z-index: 10;
+}
+
+.navbar-dark .navbar-nav .nav-link:not(hover){
+  color: gainsboro;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.title-img{
+  margin: 15px 10px;
+}

@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Typostuck';
+  src: url('../fonts/TYPOSTUCK.ttf');
+}
+
+@font-face {
+  font-family: "TrollType";
+  src: url('../fonts/alternian.ttf');
+}
+
+@font-face {
+  font-family: "TrollType V2";
+  src: url('../fonts/trolltype.ttf');
+}
+
+@font-face {
+  font-family: "Courier New Bold";
+  src: url('../fonts/CourierNB.ttf');
+}
+
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url('../fonts/comicsans.TTF');
+}
+
+@font-face {
+  font-family: "Rapscallion";
+  src: url('../fonts/RAPSCALL.TTF');
+}
+
+@font-face {
+  font-family: "Carima";
+  src: url('../fonts/Carima.ttf');
+}
+
+@font-face {
+  font-family: "John handwriting";
+  src: url('../fonts/John.ttf');
+}
+
+@font-face {
+  font-family: "Rose handwriting";
+  src: url('../fonts/Rose.ttf');
+}
+
+@font-face {
+  font-family: "Dave handwriting";
+  src: url('../fonts/Dave.ttf');
+}
+
+@font-face {
+  font-family: "Jade handwriting";
+  src: url('../fonts/Jade.ttf');
+}
+
+@font-face {
+  font-family: "Dirk handwriting";
+  src: url('../fonts/Dirk.ttf');
+}
+
+@font-face {
+  font-family: "Jake handwriting";
+  src: url('../fonts/Jake.ttf');
+}

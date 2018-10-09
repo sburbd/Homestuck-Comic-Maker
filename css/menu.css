@@ -1,0 +1,61 @@
+/* Main grid container section */
+main {
+  margin: 0px;
+  padding-left: 20px;
+  padding-top: 12px;
+  margin-bottom: 20px;
+}
+
+/* Sprites Menu */
+menu{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content:space-between;
+  display: grid;
+  grid-template-rows: auto;
+  /* bg version */
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* troll columns */
+.left-col{
+  padding-left: 0px;
+}
+.right-col{
+  padding-right: 0px;
+}
+
+/* buttons inside menu */
+menu > button{
+  margin-right: 2px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+/* Main menu buttons */
+.menu-btn{
+  font-size: 14px;
+  margin: 0px
+  padding: 2px 5px;
+  border: 1px rgba(0, 0, 0, 0.125) solid;
+  border-radius: .25rem .25rem 0px 0px;
+}
+
+/* preview icon sizes */
+.small-char{
+  height: 70px;
+  cursor: pointer;
+}
+
+/* set color/border for all sprite buttons inside card-body */
+.card-body > button {
+  background-color: white;
+  border: 0px;
+}
+
+/* change border for top card */
+.top-card{
+  border-radius: 0px 0px 4px 4px;
+  border-top: 0px;
+}
