@@ -38,24 +38,6 @@ window.onclick = function(event) {
 
 $('#myCarousel').carousel({});
 
-// mobile popup
-if ($(window).width() < 680) { // if smaller than 680px
-  getCookies();
-  if (mobileCookie != 'true') {
-    $('#mobile-popup').css("display", "block");
-  }
-}
-
-// REMOVED INSTRUCT POPUP
-
-// else { // if bigger than 680px
-//   getCookies();
-//   if (instructCookie != 'true') {
-//     $('#modal-popup').css("display", "none"); // changed to none
-//     document.getElementById('instructHide').style.display = "block";
-//   }
-// }
-
 // if mobile is open
 function closeMobile() {
   checkCheckbox();

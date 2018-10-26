@@ -43,4 +43,27 @@
   .grid-container{
     padding-top: 60px;
   }
+  .right-col{
+    padding-right: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 1043px) {
+  .left-col{
+    padding: 0px;
+  }
+  .right-col{
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .right-col, .left-col{
+    width: 50%;
+
+  }
+  #trolls{
+    margin: 0;
+  }
 }
